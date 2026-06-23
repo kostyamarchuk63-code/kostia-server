@@ -1,0 +1,159 @@
+.border{
+    width: 1300px;
+    height: 600px;
+    margin: 0 auto;
+   
+    overflow: hidden;
+    
+    
+}
+.border2{
+    
+    width: 500%;
+    height: 100%;
+    animation-name: example;
+    animation-duration: 20s;
+    animation-delay: 1000ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+
+
+}
+
+
+img{
+    width:20%;
+    height: 100%;
+    
+    
+
+}
+.block{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 200px;
+    left: 730px;
+    background-color: rgba(119, 118, 118, 0.068); 
+    box-shadow: 3px 3px 15px 5px;
+   
+    
+
+}
+.block2{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 200px;
+    right: 4630px;
+    background-color: rgba(119, 118, 118, 0.068);
+    box-shadow: 3px 3px 15px 5px;
+   
+    
+
+}
+.block3{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 200px;
+    left: 3330px;
+    background-color: rgba(119, 118, 118, 0.068); 
+    box-shadow: 3px 3px 15px 5px;
+   
+    
+
+}
+.block4{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 200px;
+    right: 2030px; ;
+    background-color: rgba(119, 118, 118, 0.068); 
+    box-shadow: 3px 3px 15px 5px;
+   
+    
+
+}
+.block5{
+     width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 200px;
+    right: 70px;
+    background-color: rgba(119, 118, 118, 0.068); 
+    box-shadow: 3px 3px 15px 5px;
+    
+
+}
+.head1{ 
+    font-size: xx-large;
+    font-weight: 1000;
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+
+}
+.text1{
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+.head{
+    font-size: xx-large;
+    font-weight: 1000;
+    color: aliceblue;
+    margin-left: 50px;
+    
+}
+.text{
+    font-size: xx-large;
+    color: aliceblue;
+    text-align: center;
+}
+@keyframes example {
+    0%{
+         transform: translateX(-0%);
+        
+    }
+     10%{
+         transform: translateX(-0%);
+    }
+    20%{
+       transform: translateX(-20%);
+       }
+       30%{
+       transform: translateX(-20%);
+       }
+       40%{
+       transform: translateX(-40%);
+
+       }
+    50%{ 
+        transform: translateX(-40%);
+     }
+
+
+    60%{
+        transform: translateX(-60%);
+        }
+        70%{
+            transform: translateX(-60%);
+
+
+        }
+        85%{
+             transform: translateX(-80%);
+        }
+    100%{
+        transform: translateX(-80%);
+       
+
+    }
+   
+}
+.border2:hover{
+    animation-play-state: paused;
+}
